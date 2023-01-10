@@ -12,13 +12,13 @@ Async crawler for news.ycombinator.com.
 # requirements
   - Python v3
   
-# How to run
+# how to run
 ```
 python3 crawler.py -h
 usage: crawler.py [-h] [-o OUTPUT] [-i INTERVAL] [-d] [-r RATE]
 ```
   
-# How to run in Docker 
+# how to run in Docker 
 ```
 docker-compose up -d --build
 ```
