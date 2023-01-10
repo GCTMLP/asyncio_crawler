@@ -1,7 +1,6 @@
 import argparse
 import asyncio
 import pathlib
-from dataclasses import dataclass
 import os
 import logging
 import aiohttp
@@ -19,7 +18,7 @@ CHECK_INTERVAL = 120
 MAX_RATE = 30
 
 
-@dataclass
+
 class FetchTask:
     """
     Класс для загрузки данных со страницы
