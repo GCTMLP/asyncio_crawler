@@ -9,4 +9,4 @@ WORKDIR /app
 COPY . .
 
 EXPOSE 8080
-CMD ["python3", "main.py", "--output=/news"]
+CMD ["python3", "crawler.py", "--output=/articles"]

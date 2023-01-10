@@ -4,5 +4,5 @@ services:
   server:
     build: .
     volumes:
-      - ./news:/news
+      - ./articles:/articles
     restart: always
